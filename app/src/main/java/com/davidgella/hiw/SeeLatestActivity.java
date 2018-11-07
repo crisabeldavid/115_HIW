@@ -5,12 +5,12 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 
-public class ProfileActivity extends AppCompatActivity {
+public class SeeLatestActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.profilepage);
+        setContentView(R.layout.seelatestpage);
     }
 
     public void toLogIn (View v) {
@@ -18,13 +18,13 @@ public class ProfileActivity extends AppCompatActivity {
         startActivity(i);
     }
 
-    public void toContribute1 (View v) {
-        Intent i = new Intent(this,Contribute1Activity.class);
+    public void toProfile (View v) {
+        Intent i = new Intent(this,ProfileActivity.class);
         startActivity(i);
     }
 
-    public void toSeeLatest (View v) {
-        Intent i = new Intent(this,SeeLatestActivity.class);
+    public void toUser (View v) {
+        Intent i = new Intent(this,UserActivity.class);
         startActivity(i);
     }
 }

@@ -22,7 +22,9 @@
         <activity android:name=".ThankYouActivity" />
         <activity android:name=".ProfileActivity" />
         <activity android:name=".Contribute1Activity" />
-        <activity android:name=".Contribute2Activity"></activity>
+        <activity android:name=".Contribute2Activity" />
+        <activity android:name=".SeeLatestActivity" />
+        <activity android:name=".UserActivity"></activity>
     </application>
 
 </manifest>
