@@ -24,7 +24,8 @@
         <activity android:name=".Contribute1Activity" />
         <activity android:name=".Contribute2Activity" />
         <activity android:name=".SeeLatestActivity" />
-        <activity android:name=".UserActivity"></activity>
+        <activity android:name=".UserActivity" />
+        <activity android:name=".ViewCardActivity"></activity>
     </application>
 
 </manifest>

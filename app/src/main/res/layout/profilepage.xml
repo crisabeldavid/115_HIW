@@ -324,7 +324,7 @@
                     android:layout_height="150dp">
 
                     <ImageView
-                        android:id="@+id/imageView7"
+                        android:id="@+id/btn_delete1"
                         android:layout_width="25dp"
                         android:layout_height="25dp"
                         android:layout_marginBottom="8dp"
@@ -342,7 +342,7 @@
                         app:srcCompat="@drawable/delete" />
 
                     <ImageView
-                        android:id="@+id/imageView8"
+                        android:id="@+id/btn_edit1"
                         android:layout_width="25dp"
                         android:layout_height="25dp"
                         android:layout_marginBottom="8dp"
@@ -354,13 +354,13 @@
                         app:layout_constraintBottom_toBottomOf="parent"
                         app:layout_constraintEnd_toEndOf="parent"
                         app:layout_constraintHorizontal_bias="0.0"
-                        app:layout_constraintStart_toEndOf="@+id/imageView7"
+                        app:layout_constraintStart_toEndOf="@+id/btn_delete1"
                         app:layout_constraintTop_toTopOf="parent"
                         app:layout_constraintVertical_bias="0.0"
                         app:srcCompat="@drawable/edit" />
 
                     <TextView
-                        android:id="@+id/textView11"
+                        android:id="@+id/box1_to"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginBottom="8dp"
@@ -380,7 +380,7 @@
                         app:layout_constraintVertical_bias="0.81" />
 
                     <TextView
-                        android:id="@+id/textView12"
+                        android:id="@+id/box1_from"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginBottom="8dp"
@@ -392,7 +392,7 @@
                         android:text="From:"
                         android:textColor="@android:color/black"
                         android:textSize="18sp"
-                        app:layout_constraintBottom_toTopOf="@+id/textView11"
+                        app:layout_constraintBottom_toTopOf="@+id/box1_to"
                         app:layout_constraintEnd_toEndOf="parent"
                         app:layout_constraintHorizontal_bias="0.07"
                         app:layout_constraintStart_toStartOf="parent"
@@ -400,7 +400,7 @@
                         app:layout_constraintVertical_bias="0.73" />
 
                     <ImageView
-                        android:id="@+id/rectangle1"
+                        android:id="@+id/to1_box"
                         android:layout_width="186dp"
                         android:layout_height="40dp"
                         android:layout_marginBottom="8dp"
@@ -418,7 +418,7 @@
                         app:layout_constraintVertical_bias="0.86" />
 
                     <ImageView
-                        android:id="@+id/rectangle2"
+                        android:id="@+id/from1_box"
                         android:layout_width="186dp"
                         android:layout_height="40dp"
                         android:layout_marginBottom="8dp"
@@ -450,7 +450,7 @@
                     android:layout_height="150dp">
 
                     <ImageView
-                        android:id="@+id/imageView7"
+                        android:id="@+id/btn_delete2"
                         android:layout_width="25dp"
                         android:layout_height="25dp"
                         android:layout_marginBottom="8dp"
@@ -468,7 +468,7 @@
                         app:srcCompat="@drawable/delete" />
 
                     <ImageView
-                        android:id="@+id/imageView8"
+                        android:id="@+id/btn_edit2"
                         android:layout_width="25dp"
                         android:layout_height="25dp"
                         android:layout_marginBottom="8dp"
@@ -480,13 +480,13 @@
                         app:layout_constraintBottom_toBottomOf="parent"
                         app:layout_constraintEnd_toEndOf="parent"
                         app:layout_constraintHorizontal_bias="0.0"
-                        app:layout_constraintStart_toEndOf="@+id/imageView7"
+                        app:layout_constraintStart_toEndOf="@+id/btn_delete2"
                         app:layout_constraintTop_toTopOf="parent"
                         app:layout_constraintVertical_bias="0.0"
                         app:srcCompat="@drawable/edit" />
 
                     <TextView
-                        android:id="@+id/textView11"
+                        android:id="@+id/box2_to"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginBottom="8dp"
@@ -506,7 +506,7 @@
                         app:layout_constraintVertical_bias="0.81" />
 
                     <TextView
-                        android:id="@+id/textView12"
+                        android:id="@+id/box2_from"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginBottom="8dp"
@@ -518,7 +518,7 @@
                         android:text="From:"
                         android:textColor="@android:color/black"
                         android:textSize="18sp"
-                        app:layout_constraintBottom_toTopOf="@+id/textView11"
+                        app:layout_constraintBottom_toTopOf="@+id/box2_to"
                         app:layout_constraintEnd_toEndOf="parent"
                         app:layout_constraintHorizontal_bias="0.07"
                         app:layout_constraintStart_toStartOf="parent"
@@ -526,7 +526,7 @@
                         app:layout_constraintVertical_bias="0.73" />
 
                     <ImageView
-                        android:id="@+id/rectangle1"
+                        android:id="@+id/to2_box"
                         android:layout_width="186dp"
                         android:layout_height="40dp"
                         android:layout_marginBottom="8dp"
@@ -544,7 +544,7 @@
                         app:layout_constraintVertical_bias="0.86" />
 
                     <ImageView
-                        android:id="@+id/rectangle2"
+                        android:id="@+id/from2_box"
                         android:layout_width="186dp"
                         android:layout_height="40dp"
                         android:layout_marginBottom="8dp"
@@ -576,7 +576,7 @@
                     android:layout_height="150dp">
 
                     <ImageView
-                        android:id="@+id/imageView7"
+                        android:id="@+id/btn_delete3"
                         android:layout_width="25dp"
                         android:layout_height="25dp"
                         android:layout_marginBottom="8dp"
@@ -594,7 +594,7 @@
                         app:srcCompat="@drawable/delete" />
 
                     <ImageView
-                        android:id="@+id/imageView8"
+                        android:id="@+id/btn_edit3"
                         android:layout_width="25dp"
                         android:layout_height="25dp"
                         android:layout_marginBottom="8dp"
@@ -606,13 +606,13 @@
                         app:layout_constraintBottom_toBottomOf="parent"
                         app:layout_constraintEnd_toEndOf="parent"
                         app:layout_constraintHorizontal_bias="0.0"
-                        app:layout_constraintStart_toEndOf="@+id/imageView7"
+                        app:layout_constraintStart_toEndOf="@+id/btn_delete3"
                         app:layout_constraintTop_toTopOf="parent"
                         app:layout_constraintVertical_bias="0.0"
                         app:srcCompat="@drawable/edit" />
 
                     <TextView
-                        android:id="@+id/textView11"
+                        android:id="@+id/box3_to"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginBottom="8dp"
@@ -632,7 +632,7 @@
                         app:layout_constraintVertical_bias="0.81" />
 
                     <TextView
-                        android:id="@+id/textView12"
+                        android:id="@+id/box3_from"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginBottom="8dp"
@@ -644,7 +644,7 @@
                         android:text="From:"
                         android:textColor="@android:color/black"
                         android:textSize="18sp"
-                        app:layout_constraintBottom_toTopOf="@+id/textView11"
+                        app:layout_constraintBottom_toTopOf="@+id/box3_to"
                         app:layout_constraintEnd_toEndOf="parent"
                         app:layout_constraintHorizontal_bias="0.07"
                         app:layout_constraintStart_toStartOf="parent"
@@ -652,7 +652,7 @@
                         app:layout_constraintVertical_bias="0.73" />
 
                     <ImageView
-                        android:id="@+id/rectangle1"
+                        android:id="@+id/to3_box"
                         android:layout_width="186dp"
                         android:layout_height="40dp"
                         android:layout_marginBottom="8dp"
@@ -670,7 +670,7 @@
                         app:layout_constraintVertical_bias="0.86" />
 
                     <ImageView
-                        android:id="@+id/rectangle2"
+                        android:id="@+id/from3_box"
                         android:layout_width="186dp"
                         android:layout_height="40dp"
                         android:layout_marginBottom="8dp"
